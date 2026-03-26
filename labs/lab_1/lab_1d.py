@@ -21,7 +21,7 @@ def two_sum(nums: list[int], target: int) -> list[int]:
         list[int]: Indices of the two numbers that add up to the target.
     """
     for i in range(len(nums)):
-        for j in range(i+1,len(nums)-i):
+        for j in range(i+1,len(nums)):
             if target == nums[i] + nums[j]:
                 return [i, j]
             
